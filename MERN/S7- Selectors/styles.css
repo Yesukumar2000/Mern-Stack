@@ -1,0 +1,35 @@
+body {
+  padding: 3%;
+  text-align: center;
+}
+#container {
+  padding: 5%;
+  margin: 50px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px 4px pink;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+img:hover {
+  background-color: pink;
+}
+.CSKPlayer {
+  box-shadow: 4px 4px 4px 4px yellow;
+  background-color: yellowgreen;
+}
+
+.RCBPlayer {
+  box-shadow: 4px 4px 4px 4px skyblue;
+
+  background-color: brown;
+}
+.SRHPlayer {
+  box-shadow: 4px 4px 4px 4px green;
+  background-color: orange;
+}
+.MIPlayer {
+  box-shadow: 4px 4px 4px 4px brown;
+  background-color: skyblue;
+}
