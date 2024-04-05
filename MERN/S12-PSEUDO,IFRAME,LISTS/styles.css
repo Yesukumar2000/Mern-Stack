@@ -1,0 +1,75 @@
+/* General styling */
+a {
+  text-decoration: none;
+}
+
+.Container {
+  margin: 2px;
+  padding: 3%;
+  border: 2px solid black;
+}
+/* pseudo Element */
+.Teams > ol > li::first-line {
+  color: rgb(61, 219, 101);
+}
+
+.Heading::first-letter {
+  text-align: center;
+  color: red;
+  font-size: 4rem;
+}
+
+.Teams > h1::second-letter {
+  color: red;
+  font-size: 4rem;
+}
+/* iframe Styling */
+.IframeContainer {
+  padding: 3%;
+  border: 2px solid bisque;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.Teams {
+  padding: 2%;
+  display: flex;
+}
+
+/* Link styling */
+/* unvisited link */
+a:link {
+  color: rgb(71, 71, 180);
+}
+
+/* visited link */
+a:visited {
+  color: #8e59e4;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: rgb(176, 226, 220);
+  color: black;
+  border: 1px solid rgb(173, 223, 161);
+  box-shadow: 2px 2px 2px 2px rgb(231, 152, 227);
+}
+
+/* selected link */
+a:active {
+  color: #16ee0e;
+}
+
+/* Specific element styling */
+.Teams > h2 {
+  border: 1px solid rgb(231, 193, 193);
+  margin: 10px;
+  padding: 3%;
+}
+
+/* Styling for the title with emoji  */
+/* pseudo class */
+#title h1::after {
+  content: "🌟";
+}
