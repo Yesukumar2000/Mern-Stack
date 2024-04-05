@@ -1,0 +1,194 @@
+.container {
+  padding: 3%;
+  text-align: center;
+}
+.Heading {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  text-align: center;
+}
+.card {
+  margin: auto;
+  border: 2px solid rgb(216, 185, 185);
+}
+.Logo {
+  width: 220px;
+  height: 150px;
+}
+.cardInfo {
+  margin: 15px;
+  border: 2px solid rgb(216, 185, 185);
+  border-radius: 20px;
+  text-align: center;
+}
+/* CSK STYLES START HERE */
+.CSKPlayers {
+  background-color: yellow;
+  background-image: url(./images/Logos/CSKLogo.png);
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 150px;
+}
+.CSKPlayer {
+  background-image: url(./images/Logos/CSKLogo.png);
+  background-size: 50% 70%;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+}
+
+#Dhoni {
+  padding-left: 140px;
+  text-align: start;
+}
+#Jadeja {
+  padding-right: 90px;
+  text-align: right;
+}
+#Chahar {
+  padding-left: 100px;
+  text-align: start;
+}
+.DhoniDes,
+.JadejaDes,
+.ChaharDes {
+  display: inline-block;
+  text-align: justify;
+  width: 900px;
+  height: 250px;
+  overflow: auto;
+}
+.JadejaDes {
+  overflow: scroll;
+}
+
+/* RCB STYLES START HERE */
+.RCBPlayers {
+  background-image: url(./images/Logos/RCBLogo.png);
+  background-size: 50% 70%;
+  background-repeat: no-repeat;
+  background-color: red;
+  width: 220px;
+  height: 150px;
+}
+.RCBPlayer {
+  background-image: url(./images/Logos/RCBLogo.png);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+}
+
+#kohli {
+  padding-right: 140px;
+  text-align: right;
+}
+#Maxwell {
+  padding-left: 90px;
+  text-align: start;
+}
+#Siraj {
+  padding-right: 100px;
+  text-align: right;
+}
+.kohliDes,
+.MaxwellDes,
+.SirajDes {
+  display: inline-block;
+  text-align: justify;
+  width: 900px;
+  height: 250px;
+  overflow: auto;
+}
+.MaxwellDes {
+  overflow: scroll;
+}
+/* SRH STYLES START HERE */
+.SRHPlayers {
+  background-image: url(./images/Logos/SRHLogo.png);
+  background-size: 50% 60%;
+  background-repeat: no-repeat;
+  background-color: orange;
+  width: 220px;
+  height: 150px;
+}
+.SRHPlayer {
+  background-image: url(./images/Logos/SRHLogo.png);
+  background-size: 50% 70%;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+}
+
+#Samad {
+  padding-left: 140px;
+  text-align: left;
+}
+#Sundar {
+  padding-right: 90px;
+  text-align: right;
+}
+#Bhuvneshwar {
+  padding-left: 100px;
+  text-align: left;
+}
+.SamadDes,
+.SundarDes,
+.BhuvneshwarDes {
+  display: inline-block;
+  text-align: justify;
+  width: 900px;
+  height: 250px;
+  overflow: auto;
+}
+.SundarDes {
+  overflow: scroll;
+}
+/* MI STYLES START HERE */
+.MIPlayers {
+  background-image: url(./images/Logos/MILogo.png);
+  background-repeat: no-repeat;
+  background-size: 50% 70%;
+  background-color: blue;
+  width: 220px;
+  height: 150px;
+}
+.MIPlayer {
+  background-image: url(./images/Logos/MILogo.png);
+  background-size: 50% 70%;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+  opacity: 0.7;
+}
+.MIPlayers {
+  background-color: blue;
+  width: 220px;
+  height: 150px;
+}
+#Rohit {
+  padding-right: 140px;
+  text-align: right;
+}
+#Pandya {
+  padding-left: 90px;
+  text-align: start;
+}
+#Bumra {
+  padding-right: 100px;
+  text-align: right;
+}
+.RohitDes,
+.PandyaDes,
+.BumraDes {
+  display: inline-block;
+  text-align: justify;
+  width: 900px;
+  height: 250px;
+  overflow: auto;
+}
+.PandyaDes {
+  overflow: scroll;
+}
