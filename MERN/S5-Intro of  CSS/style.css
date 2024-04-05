@@ -1,0 +1,52 @@
+.container {
+  padding: 3%;
+  text-align: center;
+}
+
+.Heading {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  text-align: center;
+}
+.card {
+  margin: auto;
+  border: 2px solid rgb(216, 185, 185);
+}
+.Logo {
+  width: 220px;
+  height: 150px;
+}
+.cardInfo {
+  margin: 15px;
+  border: 2px solid rgb(216, 185, 185);
+  border-radius: 20px;
+  text-align: center;
+}
+.Players {
+  width: 300px;
+  height: 300px;
+}
+.CSKPlayers {
+  background-color: yellow;
+  width: 220px;
+  height: 150px;
+}
+
+.RCBPlayers {
+  background-color: red;
+  width: 220px;
+  height: 150px;
+}
+
+.MIPlayers {
+  background-color: blue;
+  width: 220px;
+  height: 150px;
+}
+.SRHPlayers {
+  background-color: orange;
+  width: 220px;
+  height: 150px;
+}
