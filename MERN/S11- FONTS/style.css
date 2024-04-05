@@ -1,0 +1,284 @@
+/* type 2 - Internet   fonts */
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Moon+Dance&family=Syne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Moon+Dance&family=Rajdhani:wght@300;400;500;600;700&family=Syne&display=swap");
+/* type 1.Font   */
+.Heading {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif; /* type 1 - Inbuilt fonts */
+}
+
+#DhoniName {
+  font-family: "Moon Dance", cursive;
+}
+#JadejaName {
+  font-family: "Rajdhani", sans-serif;
+}
+/* DOWNLOAD Font */
+
+@font-face {
+  font-family: ntr;
+  src: url(./FONTS/NTR.ttf);
+}
+
+/* Element Selector */
+body {
+  background-color: #edf1e8;
+}
+/* class Selector */
+.Container {
+  padding: 3%;
+  text-align: center;
+}
+
+.IPLLogo,
+.HomeImg {
+  width: 50px;
+  border: 2px solid orange;
+  height: 50px;
+  border-radius: 60%;
+}
+.Heading,
+.title {
+  border: 5px double black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  text-shadow: 10px 1px 7px rgb(61, 221, 74);
+}
+.Heading {
+  background-color: rgb(121, 190, 218);
+}
+.title {
+  margin: 20px 100px 20px 100px;
+}
+.title,
+.Heading:hover {
+  text-shadow: 2px 3px 5px rgb(64, 61, 221);
+}
+
+.cards {
+  display: flex;
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+  border: 2px ridge #d8b9b9;
+}
+
+.Logos {
+  width: 220px;
+  height: 150px;
+}
+
+.cardInfo {
+  margin: 15px;
+  border: 2px solid rgb(216, 185, 185);
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* CSK STYLES START HERE */
+.CSKPlayers {
+  background-color: rgba(235, 231, 13, 0.904);
+  background-image: url(./images/Logos/CSKLogo.png);
+  background-repeat: no-repeat;
+  object-fit: fill;
+  width: 220px;
+  height: 200px;
+}
+.CSKPlayer {
+  background-image: url(./images/Logos/CSKLogo.png);
+  background-repeat: no-repeat;
+  background-size: 50% 70%;
+  width: 350px;
+  height: 300px;
+}
+.CSKPlayer:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+/* Id Selector */
+#Dhoni {
+  padding-left: 140px;
+  text-align: start;
+}
+#Jadeja {
+  padding-right: 90px;
+  text-align: right;
+}
+#Chahar {
+  padding-left: 100px;
+  text-align: start;
+}
+.cardInfo .DhoniDes,
+.JadejaDes,
+.ChaharDes {
+  font-family: Arial, "Helvetica Neue", Helvetica, serif;
+  display: inline-block;
+  text-align: justify;
+  width: 900px;
+  height: 250px;
+  overflow: auto;
+}
+.JadejaDes {
+  overflow: scroll;
+}
+
+/* RCB STYLES START HERE */
+/* type 3.Download font */
+#KohliName {
+  font-family: "NTR", sans-serif;
+  src: url(./FONTS/NTR.ttf);
+}
+#MaxwellName {
+  font-family: "NTR", fantasy;
+  src: url(./FONTS/NTR.ttf);
+}
+#SirajName {
+  font-family: "NTR", cursive;
+  src: url(./FONTS/NTR.ttf);
+}
+.RCBPlayers {
+  background-image: url(./images/Logos/RCBLogo.png);
+  background-repeat: no-repeat;
+  background-color: red;
+  background-position: 10px 10px;
+  object-fit: cover;
+  width: 220px;
+  height: 200px;
+}
+.RCBPlayer {
+  background-image: url(./images/Logos/RCBLogo.png);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+}
+.RCBPlayer:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+#kohli {
+  padding-right: 140px;
+  text-align: right;
+}
+#Maxwell {
+  padding-left: 90px;
+  text-align: start;
+}
+#Siraj {
+  padding-right: 100px;
+  text-align: right;
+}
+.kohliDes,
+.MaxwellDes,
+.SirajDes {
+  font-family: "Moon Dance", cursive;
+  display: inline-block;
+  text-align: justify;
+  width: 900px;
+  height: 250px;
+  overflow: auto;
+}
+.MaxwellDes {
+  overflow: scroll;
+}
+/* SRH STYLES START HERE */
+.PlayersName {
+  font-family: "Moon Dance", cursive;
+}
+.SRHPlayers {
+  background-image: url(./images/Logos/SRHLogo.png);
+  background-size: 50% 60%;
+  background-repeat: no-repeat;
+  background-color: orange;
+  object-fit: fill;
+  width: 220px;
+  height: 200px;
+}
+.SRHPlayer {
+  background-image: url(./images/Logos/SRHLogo.png);
+  background-size: 50% 70%;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+}
+.SRHPlayer:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+#Samad {
+  padding-left: 140px;
+  text-align: left;
+}
+#Sundar {
+  padding-right: 90px;
+  text-align: right;
+}
+#Bhuvneshwar {
+  padding-left: 100px;
+  text-align: left;
+}
+.SamadDes,
+.SundarDes,
+.BhuvneshwarDes {
+  font-family: cursive;
+  display: inline-block;
+  text-align: justify;
+  width: 900px;
+  height: 250px;
+  overflow: auto;
+}
+.SundarDes {
+  overflow: scroll;
+}
+/* MI STYLES START HERE */
+#RohitName {
+  font-family: "Moon Dance", fantasy;
+}
+.MIPlayers {
+  background-image: url(./images/Logos/MILogo.png);
+  background-repeat: no-repeat;
+  background-size: 50% 70%;
+  background-color: blue;
+  object-fit: contain;
+  width: 220px;
+}
+.MIPlayer {
+  background-image: url(./images/Logos/MILogo.png);
+  background-size: 50% 70%;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+}
+.MIPlayer:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.MIPlayers {
+  background-color: blue;
+  width: 220px;
+  height: 150px;
+}
+#Rohit {
+  padding-right: 140px;
+  text-align: right;
+}
+#Pandya {
+  padding-left: 90px;
+  text-align: start;
+}
+#Bumra {
+  padding-right: 100px;
+  text-align: right;
+}
+.RohitDes,
+.PandyaDes,
+.BumraDes {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", fantasy;
+  display: inline-block;
+  text-align: justify;
+  width: 900px;
+  height: 250px;
+  overflow: auto;
+}
+.PandyaDes {
+  overflow: scroll;
+}
