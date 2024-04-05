@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS Input Types</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="textBox">
+            <h1 id="title">WELLCOME TO SOUTH PARK!</h1>
+            <hr>
+            <p id="description">Tell us about your experience with South Park</p>
+        </div>
+    </header>
+    <div class="container">
+        <form id="surveyForm">
+            <fieldset>
+                <legend>Survery</legend>
+                <div class="labels">
+                    <label id="nameLabel" for="name">Full Name</label>
+                </div>
+                <div class="inputTab">
+                    <input class="inputField" type="text" id="name" name="name" placeholder="Enter your name" required
+                        autofocus>
+                </div>
+
+                <div class="labels">
+                    <label id="emailLabel" for="email">Email</label>
+                </div>
+                <div class="inputTab">
+                    <input class="inputField" type="email" id="email" name="email" placeholder="email@email.com"
+                        required>
+                </div>
+
+                <div class="labels">
+                    <label id="numberLabel" for="number">Age</label>
+                </div>
+                <div class="inputTab">
+                    <input class="inputField" type="number" id="number" name="number" min="1" max="120" placeholder="15"
+                        required>
+                </div>
+                <div class="labels">
+                    <label for="dropdown">How do you watch South Park?</label>
+                </div>
+                <div class="inputTab">
+                    <select class="dropdown" name="site">
+
+                        <optgroup label="Browsers">
+                            <option value="google"> Google Chrome</option>
+                            <option value="Mozilla">Mozilla Firefox</option>
+                            <option value="Safari">Safari</option>
+                            <option value="Edge">Edge</option>
+                        </optgroup>
+                        <optgroup label="SocialMedia">
+                            <option value="Instagram">
+                                Instagram</option>
+                            <option value="Youtube">Youtube</option>
+                            <option value="WhatsApp">WhatsApp</option>
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Twitter">
+                                Twitter</option>
+                        </optgroup>
+
+                    </select>
+                </div>
+
+                <div class="labels">
+                    <label>How much do you like South Park?</label>
+                </div>
+                <div class="inputTab">
+                    <input type="radio" name="radioButton" value="love">I love it!<br>
+                    <input type="radio" name="radioButton" value="like">I like it<br>
+                    <input type="radio" name="radioButton" value="ok">It's ok<br>
+                    <input type="radio" name="radioButton" value="nah">Not really<br>
+                </div>
+
+                <div class="labels">
+                    <label for="dropdown">How many seasons of South Park have you watched?</label>
+                </div>
+                <div class="inputTab">
+                    <select class="dropdown" name="seasons">
+                        <option disabled value selected>Select an option</option>
+                        <option value="<=5">0-5</option>
+                        <option value="<=10">6-10</option>
+                        <option value="<=15">10-15</option>
+                        <option value="<=21">15-21</option>
+                    </select>
+                </div>
+
+                <div class="labels">
+                    <label>Who do you watch South Park with?<br>(Check all that apply):</label>
+                </div>
+                <div class="inputTab">
+                    <input type="checkbox" name="alone" value="alone">Alone<br>
+                    <input type="checkbox" name="friends" value="fr">Friends<br>
+                    <input type="checkbox" name="family" value="fam">Family<br>
+                    <input type="checkbox" name="partner" value="fam">Partner<br>
+                    <input type="checkbox" name="other" value="other">Other<br>
+                </div>
+                <div class="labels">
+                    <label for="comments">Select your favorite color:</label>
+                </div>
+                <div class="inputTab">
+                    <input type="color" style="width: 100px; height: 50px;" value="#56A0b8">
+                </div>
+                <div class="labels">
+                    <label for="birthday">Birthday: Date and Time</label>
+                </div>
+                <div class="inputTab">
+                    <input class="inputField" type="datetime-local" id="birthday" name="birthday">
+                </div>
+                <div class="labels">
+                    <label for="comments">Tell us more about your favorite character(s) or episode(s)</label>
+                </div>
+                <div class="inputTab">
+                    <textarea class="inputField" id="comments" name="comments" rows="10" cols="40"
+                        placeholder="Your comments..."></textarea>
+                </div>
+                <div class="labels">
+                    <label for="myfile">Select a file:</label>
+
+                </div>
+                <div class="inputTab">
+                    <input class="inputField" type="file" id="myfile" name="myfile" multiple>
+                </div>
+                <div class="btn">
+                    <button id="submit" type="submit" onclick="alert('Thank You for Submitted')">Submit</button>
+                    <button id="reset" type="reset">Reset </button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy Rights 2024 Yesu kumar</p>
+    </footer>
+
+</body>
+
+</html>

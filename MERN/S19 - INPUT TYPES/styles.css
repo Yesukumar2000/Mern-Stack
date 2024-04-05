@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
+/* Body and HTML */
+body,
+html {
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+/* Body Styles */
+body {
+  font-size: 1.2em;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./image/house.jpeg) center no-repeat fixed;
+  background-size: cover;
+}
+
+/*  Header Text Box */
+.textBox {
+  background-color: gainsboro;
+  border: 2px solid wheat;
+  border-radius: 20px;
+  margin: 2em auto;
+  padding: 20px;
+  width: 90%;
+}
+
+/* Heading Styles */
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.8em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 1em;
+  font-weight: bold;
+}
+
+/* Paragraph Styles */
+p {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+/* Horizontal Rule Styles */
+hr {
+  width: 80%;
+  margin: 10px auto;
+}
+
+/* Container Styles */
+.container {
+  border-radius: 20px;
+  margin: auto;
+  width: 90%;
+  padding: 1em;
+}
+
+/* Survey Form Styles */
+#surveyForm {
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+}
+
+/* Label Styles */
+.labels {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.labels:hover {
+  color: #0baf42;
+}
+
+/* Input Tab Styles */
+.inputTab {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin-left: 10px;
+}
+
+/* Input Field Styles */
+.inputField {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  margin: 18px 0 0 10px;
+  border: 1px solid #0baf42;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* General Input Styles */
+input {
+  margin: 7px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+  width: 100%;
+  padding: 5px;
+  margin: 20px 0 10px 10px;
+  border: 1px solid #0baf42;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+/* Button Styles */
+.btn {
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  background-color: #e67e22;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 10px 15px;
+  border: 1px solid;
+}
+
+button:hover {
+  background-color: #0baf42;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  font-size: 17px;
+  margin: 20px;
+}
+
+footer p:hover {
+  color: #0baf42;
+}
+
+footer p {
+  font-weight: bold;
+  margin: 0;
+  font-size: 17px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(./image/house.jpeg) center no-repeat fixed;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+
+  .inputTab {
+    width: 100%;
+    float: left;
+    margin-left: -10px;
+  }
+
+  .inputField {
+    width: 100%;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    margin: auto;
+  }
+}
