@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1> Image Gallery</h1>
+        <p> collection of photos</p>
+    </div>
+
+    <div class="container">
+        <div class="banner">
+            <img src="./images/house.jpeg">
+        </div>
+        <div class="photos">
+            <div>
+                <img src="./images/img1.jpg" style="justify-self: self-start;" class="images">
+            </div>
+            <div>
+                <img src="./images/img4.jpg" class="images">
+            </div>
+            <div>
+                <img src="./images/img3.jpg" style="flex-grow: 1; flex-basis: 10px; flex-shrink: 1; " class="images">
+            </div>
+            <div>
+                <img src="./images/img2.jpg" class="images">
+            </div>
+            <div>
+                <img src="./images/img1.jpg" class="images">
+            </div>
+            <div>
+                <img src="./images/img4.jpg" class="images">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
