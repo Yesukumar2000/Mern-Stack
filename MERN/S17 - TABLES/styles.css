@@ -1,0 +1,31 @@
+table {
+  border: 2px solid black;
+  width: 100%; /* responsive */
+  border-collapse: collapse;
+}
+caption {
+  border: 2px solid #aaa;
+  margin: 10px;
+}
+th,
+td {
+  border: 2px solid black;
+  padding: 20px;
+}
+thead th,
+tbody th,
+tfoot th {
+  background-color: #aaa;
+}
+
+thead td,
+tbody td,
+tfoot td {
+  background-color: #ddd;
+}
+
+thead td:hover,
+tbody td:hover,
+tfoot td:hover {
+  background-color: #a5f1a5;
+}
