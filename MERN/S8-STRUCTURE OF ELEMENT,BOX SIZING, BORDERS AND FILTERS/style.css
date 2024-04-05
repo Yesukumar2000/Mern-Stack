@@ -1,0 +1,73 @@
+/* Universal Selector */
+* {
+  box-sizing: content-box;
+  padding: 2%;
+  text-align: center;
+}
+
+#container {
+  padding: 2%;
+  border-style: double;
+  margin: auto;
+}
+/* Text Shadow */
+.title {
+  font-size: 3rem;
+  border: 10px solid gray;
+  text-shadow: 2px 3px 5px rgb(61, 221, 74);
+  box-sizing: border-box;
+}
+.title:hover {
+  border: 10px solid gray;
+  text-shadow: 2px 2px dodgerblue;
+}
+/* Image block Styles */
+.imagesContainer {
+  border-style: dotted;
+}
+img {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+/* Border Styles */
+.CSKPlayer {
+  border-style: inset;
+}
+.RCBPlayer {
+  border-style: outset;
+}
+.MIPlayer {
+  border-style: ridge;
+}
+.SRHPlayer {
+  border-style: groove;
+}
+/* box Shadow */
+.CSKPlayer:hover {
+  box-shadow: 4px 4px 4px 4px yellow;
+}
+.RCBPlayer:hover {
+  box-shadow: 4px 4px 4px 4px red;
+}
+.SRHPlayer:hover {
+  box-shadow: 4px 4px 4px 4px orange;
+}
+.MIPlayer:hover {
+  box-shadow: 4px 4px 4px 4px deepskyblue;
+}
+
+/* filters */
+.CSKPlayer:hover {
+  filter: grayscale(5);
+}
+.RCBPlayer:hover {
+  filter: contrast(200%) brightness(150%);
+}
+.SRHPlayer:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.MIPlayer:hover {
+  filter: invert(100%);
+}
